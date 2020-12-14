@@ -1,0 +1,154 @@
+body {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#page {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+#entete {
+	width: 100%;
+	height: 20%;
+}
+
+#blocUn {
+	border: 1px solid #000000;
+	height: 60%;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+#blocUn img {
+	flex-grow: 2;
+}
+
+#navig {
+	flex-grow: 8;
+	display: flex;
+	flex-direction: row;
+}
+
+a {
+	color: black;
+}
+
+#navig nav {
+	flex-grow: 1;
+	align-content: center;
+}
+
+#navig nav ul li {
+	display: inline-block;
+	margin: 7px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#navig nav ul {
+	margin-top: 40px;
+	text-align: center;
+}
+
+#loupePanier {
+	flex-grow: 4;
+	display: flex;
+	flex-direction: row;
+}
+
+#loupe {
+	flex-grow: 4;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 35px;
+}
+#loupe form button {
+	
+}
+
+#loupe input {
+	width: 80%;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+form img {
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+#panier {
+	flex-grow: 1;
+	
+}
+#panier input {
+	margin-top:5px;
+	width: 15px;
+}
+
+#blocDeux {
+	border: 1px solid #000000;
+	height: 40%;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#blocDeux  nav ul li {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 140px;
+}
+
+#container {
+	margin-top: 20px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+#messagePromo {
+	margin-left: 40%;
+	margin-right: 30%;
+	color:white;
+	font-weight:bold;
+	font-size:25px;
+	text-align: center;
+}
+#messagePromo div:first-child {
+	background:#00ff80;
+	
+}
+#messagePromo div:nth-child(2) {
+	background:#00ff80;
+	
+	
+}
+
+#contenu {
+	height: 70%;
+}
+
+.itemImage {
+	
+}
+
+.itemDescription {
+	border: 1px solid #000000;
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
